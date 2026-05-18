@@ -1,0 +1,17 @@
+# ── Core (always required) ────────────────────────────────────
+requests>=2.31.0
+
+# ── Ollama backend ────────────────────────────────────────────
+# No extra packages — uses the REST API via requests.
+# Install Ollama separately: https://ollama.com/download
+
+# ── HuggingFace backend ───────────────────────────────────────
+# Uncomment if using --backend hf
+# transformers>=4.40.0
+# torch>=2.2.0
+# accelerate>=0.29.0
+
+# ── Evaluation (optional) ─────────────────────────────────────
+# Uncomment to enable --evaluate
+# rouge_score>=0.1.2
+# bert_score>=0.3.13
